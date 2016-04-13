@@ -20,7 +20,7 @@ import com.reminisense.fa.service.PersonService;
 @Controller
 public class PersonController {
 
-	@Autowired(required = true)
+	@Autowired
 	@Qualifier(value = "personService")
 	private PersonService personService;
 

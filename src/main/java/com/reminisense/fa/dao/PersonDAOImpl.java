@@ -9,8 +9,10 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Repository;
 
 import com.reminisense.fa.model.Person;
+import org.springframework.transaction.annotation.Transactional;
 
 @Repository
+@Transactional
 public class PersonDAOImpl implements PersonDAO {
 
 	private static final Logger logger = LoggerFactory
