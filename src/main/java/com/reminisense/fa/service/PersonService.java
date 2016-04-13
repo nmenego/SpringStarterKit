@@ -6,10 +6,10 @@ import com.reminisense.fa.model.Person;
 
 public interface PersonService {
 
-	public void addPerson(Person p);
-	public void updatePerson(Person p);
-	public List<Person> listPersons();
-	public Person getPersonById(int id);
-	public void removePerson(int id);
+	void addPerson(Person p);
+	void updatePerson(Person p);
+	List<Person> listPersons();
+	Person getPersonById(int id);
+	void removePerson(int id);
 	
 }
